@@ -2,8 +2,10 @@ package leonamlima.com.restapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import java.util.List;
@@ -47,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("RestApp", t.getStackTrace().toString());
             }
         });
+    }
+
+    public void navegar(View view) {
+        startActivity(new Intent(this, PostActivity.class ));
     }
 
     //public void navegar(View view) {
