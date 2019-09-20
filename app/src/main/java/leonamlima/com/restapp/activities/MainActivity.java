@@ -1,8 +1,10 @@
-package leonamlima.com.restapp;
+package leonamlima.com.restapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import leonamlima.com.restapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
